@@ -985,6 +985,9 @@ body {
     p {
         color: #fff;
         font-size: 30px;
+        @media(max-width: 425px) {
+            font-size: 20px;
+        }
     }
     .footer_up {
         width: 100%;

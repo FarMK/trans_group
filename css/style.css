@@ -1237,6 +1237,11 @@ body {
   color: #fff;
   font-size: 30px;
 }
+@media (max-width: 425px) {
+  .footer p {
+    font-size: 20px;
+  }
+}
 .footer .footer_up {
   width: 100%;
   display: -webkit-box;
