@@ -329,7 +329,6 @@ body {
   height: 84.2vh;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 .header .header_down .shadowed_block {
   display: -webkit-box;
