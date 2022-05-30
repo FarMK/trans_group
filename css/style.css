@@ -530,6 +530,8 @@ body {
 @media (min-width: 769px) {
   .main .main_adv .main_adv_left button:hover {
     background-color: #fff;
+  }
+  .main .main_adv .main_adv_left button:hover a {
     color: #C8A35F;
   }
 }
