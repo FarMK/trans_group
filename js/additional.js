@@ -10,12 +10,9 @@ $(document).ready(function() {
             top = $(id).offset().top;
 
         //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({ scrollTop: top }, 500);
+        $('body,html').animate({ scrollTop: top }, 700);
     });
-});
 
-
-$(document).ready(function() {
     $("#services_nav").on("click", "a", function(event) {
         //отменяем стандартную обработку нажатия по ссылке
         event.preventDefault();
@@ -27,9 +24,12 @@ $(document).ready(function() {
             top = $(id).offset().top;
 
         //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({ scrollTop: top }, 500);
+        $('body,html').animate({ scrollTop: top }, 700);
     });
 });
+
+
+
 
 $(document).ready(function() {
     $("#about_nav").on("click", "a", function(event) {
@@ -43,7 +43,7 @@ $(document).ready(function() {
             top = $(id).offset().top;
 
         //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({ scrollTop: top }, 500);
+        $('body,html').animate({ scrollTop: top }, 700);
     });
 });
 
@@ -59,7 +59,7 @@ $(document).ready(function() {
             top = $(id).offset().top;
 
         //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({ scrollTop: top }, 500);
+        $('body,html').animate({ scrollTop: top }, 700);
     });
 });
 
@@ -76,7 +76,7 @@ $(document).ready(function() {
             top = $(id).offset().top;
 
         //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({ scrollTop: top }, 500);
+        $('body,html').animate({ scrollTop: top }, 700);
     });
 });
 
@@ -92,7 +92,7 @@ $(document).ready(function() {
             top = $(id).offset().top;
 
         //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({ scrollTop: top }, 500);
+        $('body,html').animate({ scrollTop: top }, 700);
     });
 });
 
@@ -109,7 +109,7 @@ $(document).ready(function() {
             top = $(id).offset().top;
 
         //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({ scrollTop: top }, 500);
+        $('body,html').animate({ scrollTop: top }, 700);
     });
 });
 
@@ -125,7 +125,7 @@ $(document).ready(function() {
             top = $(id).offset().top;
 
         //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({ scrollTop: top }, 500);
+        $('body,html').animate({ scrollTop: top }, 700);
     });
 });
 
@@ -142,7 +142,7 @@ $(document).ready(function() {
             top = $(id).offset().top;
 
         //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({ scrollTop: top }, 500);
+        $('body,html').animate({ scrollTop: top }, 700);
     });
 });
 
@@ -153,7 +153,7 @@ $(document).ready(function() {
         //отменяем стандартную обработку нажатия по ссылке
         event.preventDefault();
         //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({ scrollTop: 1000 }, 500);
+        $('body,html').animate({ scrollTop: 1150 }, 700);
     });
 });
 
