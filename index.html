@@ -59,14 +59,14 @@
 
             <div class="header_mobile_nav" v-bind:class="{header_mobile_nav_active:burgerActive}">
                 <ul>
-                    <li><a href="">услуги</a></li>
-                    <li><a href="">О компании</a></li>
+                    <li id="services_nav_mobile"><a href="#services_mobile">услуги</a></li>
+                    <li id="about_nav_mobile"><a href="#about_mobile">О компании</a></li>
 
-                    <li><a href="">Контакты</a></li>
+                    <li id="contacts_nav_mobile"><a href="#contacts">Контакты</a></li>
                 </ul>
             </div>
 
-            <div class="header_down" style="background-image: url('img/1.jpg');">
+            <div class="header_down" style="background-image: url('img/1.webp');">
                 <div class="shadowed_block">
                     <div class="header_down_title">
                         <h1>Грузовые перевозки</h1>
@@ -226,7 +226,7 @@
 
             </div>
 
-            <div class="main_services_mobile">
+            <div id="services_mobile" class="main_services_mobile">
                 <div class="upperline"></div>
                 <p>Услуги</p>
                 <div class="services_table_block_mobile" v-on:click="block_1_activate" data-aos-once="true" data-aos="fade-up">
@@ -371,30 +371,30 @@
                                 <div v-on:click="full_img_closer" v-if="img_closer_show" class="close_btn"><img src="img/cancel.png" alt="" srcset=""></div>
                                 <div class="gallery_floor">
 
-                                    <img v-on:click="full_img_1" src="img/car_1.jpg" alt="">
-                                    <div v-bind:class="{full_img_active:img_show_1}" class="full_img animate__animated animate__zoomIn"><img src="img/car_1.jpg" alt="" srcset=""></div>
-                                    <img v-on:click="full_img_2" src="img/car_2.jpg" alt="">
-                                    <div v-bind:class="{full_img_active:img_show_2}" class="full_img animate__animated animate__zoomIn"><img src="img/car_2.jpg" alt="" srcset=""></div>
-                                    <img v-on:click="full_img_3" src="img/car_3.jpg" alt="">
-                                    <div v-bind:class="{full_img_active:img_show_3}" class="full_img animate__animated animate__zoomIn"><img src="img/car_3.jpg" alt="" srcset=""></div>
-                                    <div v-bind:class="{full_img_active:img_show_4}" class="full_img animate__animated animate__zoomIn"><img src="img/car_4.jpg" alt="" srcset=""></div>
-                                    <div v-bind:class="{full_img_active:img_show_5}" class="full_img animate__animated animate__zoomIn"><img src="img/car_5.jpg" alt="" srcset=""></div>
-                                    <div v-bind:class="{full_img_active:img_show_6}" class="full_img animate__animated animate__zoomIn"><img src="img/car_6.jpg" alt="" srcset=""></div>
-                                    <div v-bind:class="{full_img_active:img_show_7}" class="full_img animate__animated animate__zoomIn"><img src="img/car_7.jpg" alt="" srcset=""></div>
-                                    <div v-bind:class="{full_img_active:img_show_8}" class="full_img animate__animated animate__zoomIn"><img src="img/car_8.jpg" alt="" srcset=""></div>
-                                    <div v-bind:class="{full_img_active:img_show_9}" class="full_img animate__animated animate__zoomIn"><img src="img/car_9.jpg" alt="" srcset=""></div>
+                                    <img v-on:click="full_img_1" src="img/car_1.webp" alt="">
+                                    <div v-bind:class="{full_img_active:img_show_1}" class="full_img animate__animated animate__zoomIn"><img src="img/car_1.webp" alt="" srcset=""></div>
+                                    <img v-on:click="full_img_2" src="img/car_2.webp" alt="">
+                                    <div v-bind:class="{full_img_active:img_show_2}" class="full_img animate__animated animate__zoomIn"><img src="img/car_2.webp" alt="" srcset=""></div>
+                                    <img v-on:click="full_img_3" src="img/car_3.webp" alt="">
+                                    <div v-bind:class="{full_img_active:img_show_3}" class="full_img animate__animated animate__zoomIn"><img src="img/car_3.webp" alt="" srcset=""></div>
+                                    <div v-bind:class="{full_img_active:img_show_4}" class="full_img animate__animated animate__zoomIn"><img src="img/car_4.webp" alt="" srcset=""></div>
+                                    <div v-bind:class="{full_img_active:img_show_5}" class="full_img animate__animated animate__zoomIn"><img src="img/car_5.webp" alt="" srcset=""></div>
+                                    <div v-bind:class="{full_img_active:img_show_6}" class="full_img animate__animated animate__zoomIn"><img src="img/car_6.webp" alt="" srcset=""></div>
+                                    <div v-bind:class="{full_img_active:img_show_7}" class="full_img animate__animated animate__zoomIn"><img src="img/car_7.webp" alt="" srcset=""></div>
+                                    <div v-bind:class="{full_img_active:img_show_8}" class="full_img animate__animated animate__zoomIn"><img src="img/car_8.webp" alt="" srcset=""></div>
+                                    <div v-bind:class="{full_img_active:img_show_9}" class="full_img animate__animated animate__zoomIn"><img src="img/car_9.webp" alt="" srcset=""></div>
                                 </div>
                                 <div class="gallery_floor">
-                                    <img v-on:click="full_img_4" src="img/car_4.jpg" alt="">
+                                    <img v-on:click="full_img_4" src="img/car_4.webp" alt="">
 
-                                    <img v-on:click="full_img_5" src="img/car_5.jpg" alt="">
-                                    <img v-on:click="full_img_6" src="img/car_6.jpg" alt="">
+                                    <img v-on:click="full_img_5" src="img/car_5.webp" alt="">
+                                    <img v-on:click="full_img_6" src="img/car_6.webp" alt="">
 
                                 </div>
                                 <div class="gallery_floor">
-                                    <img v-on:click="full_img_7" src="img/car_7.jpg" alt="">
-                                    <img v-on:click="full_img_8" src="img/car_8.jpg" alt="">
-                                    <img v-on:click="full_img_9" src="img/car_9.jpg" alt="">
+                                    <img v-on:click="full_img_7" src="img/car_7.webp" alt="">
+                                    <img v-on:click="full_img_8" src="img/car_8.webp" alt="">
+                                    <img v-on:click="full_img_9" src="img/car_9.webp" alt="">
 
                                 </div>
                             </div>
@@ -426,8 +426,8 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="slide">
-                                            <img style="height: 250px;" src="img/epsilon.jpg" alt="">
-                                            <img style="height: 250px;" src="img/Ibrakom.jpg" alt="">
+                                            <img style="height: 250px;" src="img/epsilon.webp" alt="">
+                                            <img style="height: 250px;" src="img/Ibrakom.webp" alt="">
                                         </div>
                                     </div>
 
@@ -442,7 +442,7 @@
                 </div>
             </div>
 
-            <div data-aos-once="true" data-aos="fade-up" class="about_mobile">
+            <div data-aos-once="true" data-aos="fade-up" id="about_mobile" class="about_mobile">
                 <div data-aos-once="true" data-aos="fade-up" class="upperline"></div>
                 <h5>О компании</h5>
 
@@ -467,52 +467,52 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="slide">
-                                                <img src="img/car_1.jpg" alt="" srcset="">
+                                                <img src="img/car_1.webp" alt="" srcset="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="slide">
-                                                <img src="img/car_2.jpg" alt="" srcset="">
+                                                <img src="img/car_2.webp" alt="" srcset="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="slide">
-                                                <img src="img/car_2.jpg" alt="" srcset="">
+                                                <img src="img/car_2.webp" alt="" srcset="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="slide">
-                                                <img src="img/car_3.jpg" alt="" srcset="">
+                                                <img src="img/car_3.webp" alt="" srcset="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="slide">
-                                                <img src="img/car_4.jpg" alt="" srcset="">
+                                                <img src="img/car_4.webp" alt="" srcset="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="slide">
-                                                <img src="img/car_5.jpg" alt="" srcset="">
+                                                <img src="img/car_5.webp" alt="" srcset="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="slide">
-                                                <img src="img/car_6.jpg" alt="" srcset="">
+                                                <img src="img/car_6.webp" alt="" srcset="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="slide">
-                                                <img src="img/car_7.jpg" alt="" srcset="">
+                                                <img src="img/car_7.webp" alt="" srcset="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="slide">
-                                                <img src="img/car_8.jpg" alt="" srcset="">
+                                                <img src="img/car_8.webp" alt="" srcset="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="slide">
-                                                <img src="img/car_9.jpg" alt="" srcset="">
+                                                <img src="img/car_9.webp" alt="" srcset="">
                                             </div>
                                         </div>
 
@@ -573,12 +573,12 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="slide">
-                                                <img style="height: 250px; width: 100%;" src="img/epsilon.jpg" alt="">
+                                                <img style="height: 250px; width: 100%;" src="img/epsilon.webp" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="slide">
-                                                <img style="height: 250px;" src="img/Ibrakom.jpg" alt="">
+                                                <img style="height: 250px;" src="img/Ibrakom.webp" alt="">
                                             </div>
                                         </div>
 
