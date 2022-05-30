@@ -503,10 +503,12 @@ body {
   width: 220px;
   height: 55px;
   background-color: #C8A35F;
-  color: #fff;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
+}
+.main .main_adv .main_adv_left button a {
+  color: #fff;
 }
 .main .main_adv .main_adv_left button:hover {
   background-color: #fff;

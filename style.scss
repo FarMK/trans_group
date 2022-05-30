@@ -382,10 +382,12 @@ body {
                 width: 220px;
                 height: 55px;
                 background-color: $gold;
-                color: #fff;
                 font-size: 16px;
                 font-weight: 500;
                 cursor: pointer;
+                a {
+                    color: #fff;
+                }
             }
             button:hover {
                 background-color: #fff;
